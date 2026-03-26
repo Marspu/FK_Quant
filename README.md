@@ -1,4 +1,4 @@
-# LOF T+0 Grid Strategy For XtQuant
+# FK_quant
 
 This workspace contains a ready-to-run A-share LOF T+0 grid strategy built on top of MiniQMT / XtQuant.
 
@@ -42,7 +42,7 @@ What the strategy does:
 3. Run:
 
 ```bash
-python3 /Users/zhiwei.bu/Documents/量化/lof_t0_grid_xtquant.py --config /Users/zhiwei.bu/Documents/量化/config.example.json
+python3 /Users/zhiwei.bu/Documents/FK_quant/lof_t0_grid_xtquant.py --config /Users/zhiwei.bu/Documents/FK_quant/config.example.json
 ```
 
 ## Strategy Parameters
@@ -117,9 +117,9 @@ Expected csv columns:
 Example:
 
 ```bash
-python3 /Users/zhiwei.bu/Documents/量化/lof_t0_grid_replay.py \
+python3 /Users/zhiwei.bu/Documents/FK_quant/lof_t0_grid_replay.py \
   --csv /path/to/161129_ticks.csv \
-  --config /Users/zhiwei.bu/Documents/量化/config.example.json \
+  --config /Users/zhiwei.bu/Documents/FK_quant/config.example.json \
   --symbol 161129.SZ \
   --initial-cash 200000 \
   --base-position 2000 \
